@@ -1,0 +1,22 @@
+{
+    "name": "digitalserv/blyro-api",
+    "description": "blyro-api",
+    "type": "library",
+    "homepage": "https://bly.ro/api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gheorghe Rain",
+            "email": "gheorghe.rain@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rainet\\Blyro\\": "src/"
+        }
+    }
+}
