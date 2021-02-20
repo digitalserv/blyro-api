@@ -57,8 +57,6 @@ class Shortener
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, self::APICURL_VERIFY_SSL);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, self::APICURL_VERIFY_HOST);
-        curl_setopt($ch, CURLOPT_HEADER, true);
-        curl_setopt($ch, CURLINFO_HEADER_OUT, true);
         curl_setopt($ch, CURLOPT_ENCODING , '');
 
         switch (strtoupper($method)) {
