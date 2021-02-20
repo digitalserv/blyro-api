@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rainet\\Blyro\\": "src/"
+            "Rainet\\": "src/Rainet"
         }
     }
 }
